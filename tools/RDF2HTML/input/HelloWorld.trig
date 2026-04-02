@@ -26,9 +26,9 @@ doc:titleText a html:Text ;
     html:fragment "My first 'Hello world' HTML page represented in RDF" .
 
 doc:style a html:Style ;
-    rdf:_1 doc:styleSheetText .
+    rdf:_1 doc:styleText .
 
-doc:styleSheetText a html:Text ;
+doc:styleText a html:Text ;
     html:fragment " .italic-text {font-style: italic;}" .
 
 doc:meta a html:Meta ;
