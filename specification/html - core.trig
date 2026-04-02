@@ -2883,7 +2883,7 @@ This can be rendered in RDF using the HTML vocabulary as follows:
     rdfs:isDefinedBy html:.
 
 
-  # Style sheet element (<style>)
+  # Style element (<style>)
 
   html:Style
     a owl:Class;
