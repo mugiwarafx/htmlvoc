@@ -231,7 +231,7 @@ doc:7.4 a html:Title ;
 doc:7.4.1 a html:Text ;
     html:fragment "Tutorial Document Example" .
 
-doc:8.4 a html:StyleSheet ;
+doc:8.4 a html:Style ;
     rdf:_1 doc:8.4.1 .
 
 doc:8.4.1 a html:Text ;
