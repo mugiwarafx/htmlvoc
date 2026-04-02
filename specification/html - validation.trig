@@ -122,7 +122,7 @@ html: {
     a sh:PropertyShape;
     rdfs:comment 'A head of an html document, may have one embedded style sheet, which is comprised of presentational and formatting instructions for the rest of the document, and the expected input is CSS declarations.'@en;
     rdfs:label 'has style sheet'@en;
-    sh:class html:StyleSheet;
+    sh:class html:Style;
     sh:maxCount 1;
     sh:path rdfs:member;
     rdfs:isDefinedBy html:.
@@ -159,7 +159,7 @@ html: {
     a sh:NodeShape;
     rdfs:comment 'A style element is a form of metadata content in a HTML document that sets up the presentation for the rest of the content in the document.'@en;
     rdfs:label 'style sheet shape'@en;
-    sh:targetClass html:StyleSheet;
+    sh:targetClass html:Style;
     rdfs:isDefinedBy html:.
 
   shp:Body

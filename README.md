@@ -196,7 +196,7 @@ doc:49.16 a html:DataCell ;
 doc:49.16.1 a html:Text ; 
  html:fragment "b" . 
 
-doc:5.4 a html:StyleSheet ; 
+doc:5.4 a html:Style ; 
  rdf:_1 doc:5.4.1 . 
 
 doc:5.4.1 a html:Text ; 
@@ -435,7 +435,7 @@ doc:1.21 a html:Head ;
 
 doc:1.27 a html:Title .
 
-doc:1.42 a html:StyleSheet ;
+doc:1.42 a html:Style ;
     rdf:_1 doc:1.42.1 .
 
 doc:1.42.1 a html:Text ;

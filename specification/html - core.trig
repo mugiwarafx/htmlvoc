@@ -543,7 +543,7 @@ Take for example the HTML document as modeled above. Running this through a SHAC
     doc:titleText a html:Text ; 
       html:fragment "Tutorial Document Example"^^rdf:HTML . 
      
-    doc:style a html:StyleSheet ; 
+    doc:style a html:Style ; 
       rdf:_1 doc:styleText ;
       html:fragment "<style>\r able {\r width: 70%;\r margin: 0 auto;\r border-collapse: collapse;\r }\r \r caption {\r text-align: left;\r font-weight: bold;\r padding: 10px;\r background-color: #f2f2f2; /* Light gray */\r }\r \r th, td {\r padding: 12px;\r text-align: center;\r border: 1px solid #ddd; /* Light gray border */\r }\r \r th {\r background-color: #4CAF50; /* Green */\r color: white;\r }\r </style>"^^rdf:HTML . 
 
@@ -695,7 +695,7 @@ This can be rendered in RDF using the HTML vocabulary as follows:
     html:fragment "An 'hello world' HTML page represented in RDF".
 
   doc:1.93
-    a html:StyleSheet;
+    a html:Style;
     rdf:_1 doc:1.93.1.
 
   doc:1.93.1
@@ -2885,7 +2885,7 @@ This can be rendered in RDF using the HTML vocabulary as follows:
 
   # Style sheet element (<style>)
 
-  html:StyleSheet
+  html:Style
     a owl:Class;
     rdfs:subClassOf html:RawTextElement;
     dct:conformsTo section:4.2.6;
@@ -4993,7 +4993,7 @@ This can be rendered in RDF using the HTML vocabulary as follows:
             html:Area
             html:Link
             html:Source
-            html:StyleSheet ) ];
+            html:Style ) ];
     rdfs:range xsd:string;
     rdf:type html:Attribute;
     skos:definition "Specifies the media type or media query for the linked resource."@en;
