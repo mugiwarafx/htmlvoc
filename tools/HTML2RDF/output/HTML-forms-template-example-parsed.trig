@@ -159,7 +159,7 @@ _:N7be4b3b9e10d4bcc8c3e51491da5084e {
 
     doc:1.27 a html:Title .
 
-    doc:1.42 a html:StyleSheet ;
+    doc:1.42 a html:Style ;
         rdf:_1 doc:1.42.1 .
 
     doc:1.42.1 a html:Text ;

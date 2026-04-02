@@ -43,7 +43,7 @@ _:N78c91659a27e41fd876d35cb83f0f713 {
     doc:1.27.1 a html:Text ;
         html:fragment "My first 'Hello world' HTML page represented in RDF" .
 
-    doc:1.94 a html:StyleSheet ;
+    doc:1.94 a html:Style ;
         rdf:_1 doc:1.94.1 .
 
     doc:1.94.1 a html:Text ;

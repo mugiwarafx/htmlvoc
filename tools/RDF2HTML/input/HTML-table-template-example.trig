@@ -253,7 +253,7 @@ doc:49.16 a html:DataCell ;
 doc:49.16.1 a html:TextElement ;
     html:fragment "b" .
 
-doc:5.4 a html:StyleSheet ;
+doc:5.4 a html:Style ;
     rdf:_1 doc:5.4.1 .
 
 doc:5.4.1 a html:TextElement ;

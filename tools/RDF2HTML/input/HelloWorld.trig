@@ -25,7 +25,7 @@ doc:title a html:Title ;
 doc:titleText a html:Text ;
     html:fragment "My first 'Hello world' HTML page represented in RDF" .
 
-doc:style a html:StyleSheet ;
+doc:style a html:Style ;
     rdf:_1 doc:styleSheetText .
 
 doc:styleSheetText a html:Text ;

@@ -163,7 +163,7 @@ doc:1.21 a html:Head ;
 
 doc:1.27 a html:Title .
 
-doc:1.42 a html:StyleSheet ;
+doc:1.42 a html:Style ;
     rdf:_1 doc:1.42.1 .
 
 doc:1.42.1 a html:TextElement ;

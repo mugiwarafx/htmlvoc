@@ -27,7 +27,7 @@
     doc:titleText a html:Text ; 
       html:fragment "Tutorial Document Example"^^rdf:HTML . 
      
-    doc:style a html:StyleSheet ; 
+    doc:style a html:Style ; 
       rdf:_1 doc:styleText . 
 
     doc:styleText a html:Text ; 

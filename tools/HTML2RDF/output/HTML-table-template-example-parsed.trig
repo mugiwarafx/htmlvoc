@@ -249,7 +249,7 @@ _:N2539c1dd1c2a4de2a418e0eafd19c0fe {
     doc:49.16.1 a html:Text ;
         html:fragment "b" .
 
-    doc:5.4 a html:StyleSheet ;
+    doc:5.4 a html:Style ;
         rdf:_1 doc:5.4.1 .
 
     doc:5.4.1 a html:Text ;
